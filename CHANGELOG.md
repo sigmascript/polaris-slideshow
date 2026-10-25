@@ -4,8 +4,17 @@ Detailed historical release notes are preserved in [`changelog/`](changelog/).
 
 ## Unreleased
 
-- Documentation foundation prepared: refreshed README, getting-started and development guides, and a changelog index.
-- No version bump, package publication, API change, or compatibility certification is implied by this documentation batch.
+### Documentation and maintenance
+
+- Refreshed README and introduced `/docs/` guides and root changelog index.
+- Updated repository, homepage, and issue-tracker metadata to SigmaScript.
+- Updated development dependencies to Polaris Core 1.0.6 and Sass 1.105.2.
+- Refreshed the npm dependency lockfile and resolved reported npm audit advisories (zero vulnerabilities in the latest local audit).
+- Verified production and development Sass builds; retained existing scripts and public Sass interfaces.
+- Updated TypeScript, Webpack, and related tooling; rebuilt LTR/RTL CSS and JavaScript distribution assets.
+- Public TypeScript declarations remained unchanged. Runtime regression testing is still required before release.
+
+**Release status:** Not yet tagged or published. Version selection and final compatibility checks are pending.
 
 ## Published version history
 

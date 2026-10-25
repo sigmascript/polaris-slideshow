@@ -12,10 +12,10 @@ The current project scripts are:
 
 | Script | Command |
 |---|---|
-| `npm run css` | `sass src/scss/main.scss dist/css/main.min.css --style compressed --load-path=node_modules --no-source-map` |
-| `npm run css-dev` | `sass src/scss/main.scss dist/css/main.css --watch --load-path=node_modules` |
-| `npm run css-rtl` | `sass src/scss/main-rtl.scss dist/css/main-rtl.min.css --style compressed --load-path=node_modules --no-source-map` |
-| `npm run css-rtl-dev` | `sass src/scss/main-rtl.scss dist/css/main-rtl.css --watch --load-path=node_modules` |
+| `npm run css` | `sass src/scss/main.scss dist/css/main.min.css --style compressed --load-path=node_modules --no-source-map --silence-deprecation=import,global-builtin,if-function` |
+| `npm run css-dev` | `sass src/scss/main.scss dist/css/main.css --watch --load-path=node_modules --silence-deprecation=import,global-builtin,if-function` |
+| `npm run css-rtl` | `sass src/scss/main-rtl.scss dist/css/main-rtl.min.css --style compressed --load-path=node_modules --no-source-map --silence-deprecation=import,global-builtin,if-function` |
+| `npm run css-rtl-dev` | `sass src/scss/main-rtl.scss dist/css/main-rtl.css --watch --load-path=node_modules --silence-deprecation=import,global-builtin,if-function` |
 | `npm run js-mod` | `tsc --watch` |
 | `npm run js` | `webpack` |
 | `npm run js-dev` | `webpack --config webpack.config.dev.js` |

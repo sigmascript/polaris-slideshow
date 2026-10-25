@@ -42,8 +42,8 @@ For the complete list of production and watch commands, see [Development](docs/d
 
 ## Compatibility
 
-The current package declares `polaris-core` as a development dependency. Before publishing a future version, verify the plugin's Sass imports and compiled output against the selected Core version. Compatibility with Core 1.0.6 has **not yet been verified** in this documentation batch.
+The development toolchain uses Polaris Core 1.0.6 and Sass 1.105.2. Production builds and security audits passed during the maintenance refresh. Slideshow JavaScript runtime regression testing remains a release gate.
 
 ## Support and license
 
-Report issues in the [SigmaScript repository](https://github.com/sigmascript/polaris-slideshow/issues) **after its transfer is completed**. Until then, use the repository's currently active issue tracker. Licensed under MIT; see `LICENSE`.
+Report issues through the [repository issue tracker](https://github.com/sigmascript/polaris-slideshow/issues). Licensed under MIT; see `LICENSE`.
