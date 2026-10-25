@@ -4,17 +4,15 @@ Detailed historical release notes are preserved in [`changelog/`](changelog/).
 
 ## Unreleased
 
-### Documentation and maintenance
+No changes recorded since the v1.7.1 release candidate was prepared.
 
-- Refreshed README and introduced `/docs/` guides and root changelog index.
-- Updated repository, homepage, and issue-tracker metadata to SigmaScript.
-- Updated development dependencies to Polaris Core 1.0.6 and Sass 1.105.2.
-- Refreshed the npm dependency lockfile and resolved reported npm audit advisories (zero vulnerabilities in the latest local audit).
-- Verified production and development Sass builds; retained existing scripts and public Sass interfaces.
-- Updated TypeScript, Webpack, and related tooling; rebuilt LTR/RTL CSS and JavaScript distribution assets.
-- Public TypeScript declarations remained unchanged. Runtime regression testing is still required before release.
+## Release candidate
 
-**Release status:** Not yet tagged or published. Version selection and final compatibility checks are pending.
+### v1.7.1 — Maintenance and SigmaScript migration
+
+- [Full release notes](./changelog/v1.7.1.md)
+
+**Status:** Release candidate; not yet tagged or published.
 
 ## Published version history
 
