@@ -1,89 +1,49 @@
-# Polaris Slideshow Plugin (v1.7.0)
+# Polaris Slideshow
 
-In addition to the built-in features and components comes with [Polaris framework](https://github.com/heminsatya/polaris), you can also use a set of useful plugins.
+**Version 1.7.0** · Polaris UI plugin · MIT license
 
-Usings Polaris Slideshow Plugin, you can easily create responsive JavaScript slideshows for HTML elements.
+A responsive slideshow component with Sass styling and TypeScript/JavaScript behavior.
 
+This repository contains the plugin's source and compiled distribution assets. It is maintained separately from [Polaris Core](https://github.com/sigmascript/polaris-core).
 
-## Documentation
+## Install
 
-> Coming soon...
-
-
-## Dependencies
-
-For production Polaris Slideshow Plugin needs Polaris Framework Core CSS and JS libraries.
-
-And for development, Polaris Slideshow Plugin depends on:
-
-* [Node.js](https://nodejs.org/en/) need to be installed.
-* [Sass](https://www.npmjs.com/package/sass) as an npm developement package.
-* [TypeScript](https://www.npmjs.com/package/typescript) as an npm developement package.
-* [webpack](https://www.npmjs.com/package/webpack) as an npm developement package.
-* [webpack CLI](https://www.npmjs.com/package/webpack-cli) as an npm developement package.
-* [TypeScript loader](https://www.npmjs.com/package/ts-loader) as an npm developement package.
-* [inspectpack](https://www.npmjs.com/package/inspectpack) as an npm developement package.
-* [Polaris Core](https://www.npmjs.com/package/polaris-core) as an npm developement package.
-* [Polaris Colors](https://github.com/heminsatya/polaris-colors) as an npm developement package.
-
-
-## Get Started
-
-### Install via npm
-
-```
+```bash
 npm install polaris-slideshow
 ```
 
+## Get started
 
-### Use Polaris CDN
+Include the Polaris Core CSS and JavaScript assets, then the slideshow CSS and JavaScript assets in your application. Refer to the source and existing examples for initialization and markup; do not assume the slideshow initializes automatically.
 
-> Coming soon...
+Available production assets in this repository:
 
+- `dist/css/main-rtl.min.css`
+- `dist/css/main.min.css`
+- `dist/js/main.min.js`
 
-### Download Polaris Slideshow
+For example, use the appropriate stylesheet from `node_modules/polaris-slideshow/dist/css/` in your application's asset pipeline. A plain HTML project can also copy the required compiled files into its public assets.
 
-[Download Polaris Slideshow](https://github.com/heminsatya/polaris-slideshow/releases)
+## Development
 
-
-### Clone Polaris
-
-You can also clone Polaris Slideshow using [git](https://git-scm.com/):
-
-```
-git clone https://github.com/heminsatya/polaris-slideshow.git
-```
-
-
-### Customize Polaris Slideshow
-
-First, you need to download or clone it, then you need to follow a few easy steps:
-
-* Open up your favourite CLI program.
-* Change directory to the path where Polaris Slideshow extracted:
-```
-cd path-to/polaris-slideshow/
-```
-* Install packages by:
-```
+```bash
 npm install
-```
-
-Now, you have everything set-up. You can customize it however you want.
-
-Next step after customization is to rebuild CSS & JS libraries.
-
-* To rebuild the CSS libraries run:
-```
 npm run css
-npm run css-dev
-npm run css-rtl
-npm run css-rtl-dev
 ```
 
-* To rebuild the JavaScript libraries run:
-```
-npm run js-mod
-npm run js
-npm run js-dev
-```
+For the complete list of production and watch commands, see [Development](docs/development.md). Development dependencies remain in the plugin repository; they do not need to be deployed with a production website.
+
+## Documentation
+
+- [Documentation index](docs/README.md)
+- [Getting started](docs/getting-started.md)
+- [Development and build commands](docs/development.md)
+- [Changelog](CHANGELOG.md)
+
+## Compatibility
+
+The current package declares `polaris-core` as a development dependency. Before publishing a future version, verify the plugin's Sass imports and compiled output against the selected Core version. Compatibility with Core 1.0.6 has **not yet been verified** in this documentation batch.
+
+## Support and license
+
+Report issues in the [SigmaScript repository](https://github.com/sigmascript/polaris-slideshow/issues) **after its transfer is completed**. Until then, use the repository's currently active issue tracker. Licensed under MIT; see `LICENSE`.
